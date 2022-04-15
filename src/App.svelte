@@ -82,7 +82,7 @@
             <input type="text" placeholder="search by Host or URL..." bind:value={query} class="w-full rounded-md h-6 p-2 border border-gray-500">
         </div>
         <div class="flex-grow h-[45%] min-h-[45%] max-h-[45%] border-x border-t border-gray-500 mt-1 rounded-t-md" data-simplebar>
-            <div class="grid" style="grid-template-columns: repeat(3, auto) 1fr repeat(6, auto)">
+            <div class="grid" style="grid-template-columns: repeat(2, auto) minmax(200px, 1fr) minmax(300px, 1fr) repeat(6, auto)">
                 <div class="header row">
                     <div>#</div>
                     <div>Method</div>
